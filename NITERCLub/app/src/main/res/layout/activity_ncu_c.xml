@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NCuC"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:padding="5dp"
+        app:srcCompat="@drawable/ncuc" />
+    <ListView
+        android:id="@+id/list_ncuc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#EBF1F1"
+        android:dividerHeight="2dp"
+        android:background="#BEC3C7"
+        />
+
+
+</LinearLayout>

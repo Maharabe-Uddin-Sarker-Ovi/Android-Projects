@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Niter Clubs</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="computerclub">Niter Computer Club</string>
+    <string name="science">Niter Science Society</string>
+    <string name="Debate">Niter Debating Society</string>
+    <string name="business">Niter Business and Innovation Club</string>
+    <string name="photo">Niter Film and Photographic Society</string>
+    <string name="cultural">Niter Cultural Club</string>
+    <string name="career">Niter Career Club</string>
+    <string name="mastul">Mastul</string>
+    <string name="Gamesandsports">Niter Games and Sports Club</string>
+    <string name="language">Niter Language Club</string>
+    <string name="fdae">FDAE Club</string>
+    <string name="robotics">Niter Robotics Club</string>
+
+    <string name="card1">Programming Contest is an algorithmic programming contest for college students.</string>
+    <string name="card11">Programming Contest is an algorithmic programming contest for college students.
+    Programming Contest is an algorithmic programming contest for college students.
+    Programming Contest is an algorithmic programming contest for college students.</string>
+
+    <string name="card2">Tournament Rules and Regulations · 1. Each Team will receive from Organizers 15 No</string>
+
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_heading">Find Amazing events happening around you.</string>
+    <string name="dashboard_sub_title">480 events around you</string>
+    <string name="search_bar_hint">search for an event...</string>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan in nisl nisi scelerisque eu. Semper feugiat nibh sed pulvinar proin gravida. Quisque sagittis purus sit amet. Faucibus turpis in eu mi bibendum. Quisque egestas diam in arcu cursus euismod quis viverra. Dictumst quisque sagittis purus sit amet volutpat consequat. Tristique risus nec feugiat in. Nunc id cursus metus aliquam. Fames ac turpis egestas maecenas pharetra convallis posuere morbi leo. Leo integer malesuada nunc vel. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Pulvinar etiam non quam lacus suspendisse faucibus. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Vehicula ipsum a arcu cursus vitae congue.  </string>
+    <string name="location">Niter Playground</string>
+    <string name="desc">This Music Fest is an music festival held in Savar, Dhaka, featuring national musicians from different genres. The festival covers an extensive scope of performances from local folk</string>
+    <string name="careercse">Are you struggling to pick from the range of computer science career paths? Fortunately for you, there are many computer science career options to choose.</string>
+    <string name="languagefest">The purpose of language festivals is to teach and provide information about the worlds languages to people interested in languages and culture.</string>
+    <string name="sciencefest">The projects were categorised into physics, chemistry, biology, psychology, geography and information technology (IT) sections.</string>
+    <string name="ideacreation">Idea generation is described as the process of creating, developing and communicating abstract, concrete or visual ideas.</string>
+    <string name="photosubmission">Photo Submission Guidelines. Preferred File: • Size: 500 KB or Higher. • Type: .jpg / .jpeg /.tiff. • Color Image comfortable space on the top of.</string>
+
+</resources>

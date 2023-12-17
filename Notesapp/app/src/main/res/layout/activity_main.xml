@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Enter 1st number"
+        android:inputType="number"
+        android:textColor="@color/purple_500"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Enter 2nd number"
+        android:inputType="number"
+        android:textColor="@color/purple_500"
+        android:textColorHint="#000000" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Result"
+        android:textColor="#000000"
+        android:textColorHint="#FFFBFB"
+        app:autoSizeMaxTextSize="20dp"
+        app:autoSizeTextType="uniform" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Addition" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Substraction" />
+
+    <Button
+        android:id="@+id/mul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Multiplication" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Division" />
+
+    <EditText
+        android:id="@+id/etp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Created by &quot;Ovi&quot;"
+        android:textColor="#CAC9C9"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        android:visibility="visible" />
+
+</LinearLayout>

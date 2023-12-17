@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gridcard3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtview"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Clubs Information"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="140dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <Button
+                android:id="@+id/btninfo1"
+                android:backgroundTint="@color/purple_500"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Executive Members"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="26dp">
+            </Button>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <Button
+                android:id="@+id/btninfo2"
+                android:backgroundTint="@color/purple_500"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Important Notice"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="26dp">
+            </Button>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <Button
+                android:id="@+id/btninfo3"
+                android:backgroundTint="@color/purple_500"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Registration"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="26dp">
+            </Button>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <Button
+                android:id="@+id/btninfo4"
+                android:backgroundTint="@color/purple_500"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Achievements"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="26dp">
+            </Button>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <Button
+                android:id="@+id/btninfo5"
+                android:backgroundTint="@color/purple_500"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="About"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="26dp">
+            </Button>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
